@@ -1,0 +1,27 @@
+//META{"name":"Drag-Fix","description":"Makes it way easier to move the window.","author":"square","version":"1.0.4"}*//
+
+.title-wrap > *, .search-bar > *, .title > *:not([class="channel-name"]), .tab-bar > *, .bd-pfbtn, .btn-close, button, .header-toolbar, .topic > *, [class*="guild-settings"] [class^="scrollerWrap"] > [class^="scroller-"] > * > *, .side-2nYO0F
+{
+  -webkit-app-region: no-drag;
+}
+
+.title-wrap,
+.layer:not([style]) .search-bar,
+.layer:not([style]) .title:first-of-type,
+.layer:not([style]) .friends-header,
+.layer:not([style]) .topic
+{
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+
+.title-wrap:before{
+  content: "";
+  -webkit-app-region: no-drag;
+  cursor: ns-resize;
+  height: 6px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

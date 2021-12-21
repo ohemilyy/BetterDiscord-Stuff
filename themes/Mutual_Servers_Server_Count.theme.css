@@ -1,0 +1,5 @@
+//META{"name":"Mutual_Servers_Server_Count","description":"Adds line number or server number to the left of servers in the mutual servers tab in user profiles","author":"maple","version":"1.1"}*//{}
+
+.modal {counter-reset: servercount;} /* thanks for the intel about counters in css zerthox */
+.modal .guild:before {counter-increment: servercount;content:counter(servercount);width:20px;padding:0 2px 0 4px;margin:-10px 6px -10px -20px;font-size:12px;line-height:50px;border-right:1px solid rgba(100,100,100,.2);}
+.modal .guild:hover:before {background:linear-gradient(to right,rgba(190,190,190,.09) 23px,rgba(190,190,190,.02) 26px);}

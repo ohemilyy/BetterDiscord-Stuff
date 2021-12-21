@@ -1,0 +1,30 @@
+//META{"name":"Notepad++_Syntax_Highlighting","description":"Makes Discord's CSS syntax highlighting look like Notepad++ <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/Zerthox' target='_blank'>@Zerthox</a></b></span>","author":"Zerthox","version":"1.1"}*//{}
+
+/* CSS SYNTAX HIGHLIGHTING */
+.css .hljs-tag {
+	color: #00f !important;
+}
+.css .hljs-class,
+.css .hljs-important {
+	color: #f00 !important;
+}
+.css .hljs-value,
+.css .hljs-hexcolor,
+.css .hljs-number,
+.css .hljs-function {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+.css .hljs-attribute {
+	color: #8080c0 !important;
+}
+.css .hljs-comment {
+	color: #008000 !important;
+}
+.css .hljs-id,
+.css .hljs-at_rule,
+.css .hljs-keyword {
+	color: #0080ff !important;
+}
+.css .hljs-pseudo {
+	color: #ff8000 !important;
+}

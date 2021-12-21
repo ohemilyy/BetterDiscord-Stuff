@@ -1,0 +1,93 @@
+//META{"name":"JustBlack_Theme","description":"A nice and black theme","author":"Dddsasul","version":"1.2.2"}*//
+
+.layers, .layer {
+    background: none !important;
+}
+
+/* Remove this if you don't want the guilds fading */
+.guilds-wrapper {
+    opacity: 0 !important;
+    transition: 0.4s !important;
+}
+.guilds-wrapper:hover {
+    opacity: 1 !important;
+}
+/* ends here */
+
+.guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header, header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #voice-connection, .guild-settings-modal-members, .tab-bar-container, #user-profile-modal > header:after, .scroller-wrap.fade > .scroller.guilds, .user-popout > header, .user-popout > .footer, .markdown-modal.change-log, .markdown-modal-footer, .popout-menu-item, .settings-inner, .settings-actions, .authed-app, .form > .form-header, .form > .form-inner, .form > .form-actions, #autocomplete-popout, #autocomplete-popout > section > .scroller-wrap > .scroller, .option.search-query, .modal-content.form.need-help-modal > .footer, .emoji-picker, .option-popout, #voice-connection-popout > header, .context-menu {
+    background: black !important;
+}
+.friends-row:hover, .friends-header > .tab-bar > .tab-bar-item:hover:not(.tab-bar-item-primary), .btn-friends, .channel-text.selected, .is-local-bot-message, .channel-textarea-inner, .callout-backdrop, .markup code.inline, .markup pre code.hljs, #user-profile-modal > .scroller-wrap.fade > .scroller.guilds > .guild:hover, .roles > .scroller-wrap.fade > .scroller > ul > li:hover, .scroller > ul > li.selected, .scroller.channel-members > .member:hover, .scroller.guild-channels > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel.selected, #autocomplete-popout > section > .scroller-wrap > .scroller, .scroller-wrap > .scroller > .search-result.selected, .scroller-wrap > .scroller > .search-result:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild > div > .guild-inner, .member.member-status.member-status-online.popout-open, #settings-username, #settings-email, #settings-current-password, #nickname, #removal-code, #settings-name, #autocomplete-popout > section > .scroller-wrap > .scroller > .row.selected, .context-menu > .item:hover, #channel-name, #channel-topic, .empty:hover {
+    background: rgba(20, 20, 20, .8) !important;
+}
+.divider > span, .divider > div, .unread::before, .selected::before, .tooltip, .settings-header, .btn-primary, .tab-bar-item.selected:before, .btn.btn-primary, #user-profile-modal > header, .new-messages-bar, #user-profile-modal > footer, .region-select:hover > button, .popout-menu-item:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild.selected > div > .guild-inner, .webhook.editing, .webhook-header {
+    background: rgb(20, 20, 20) !important;
+    color: white !important;
+}
+#user-profile-modal > header:after {
+    border-bottom: 2px solid white;   
+}
+#autocomplete-popout > section > .scroller-wrap > .scroller {
+    border-top: 2px solid white;
+}
+ .avatar-profile {
+    border: 4px solid white !important;
+}
+.option.search-query, .option-popout, #channel-topic {
+    border: none !important
+}
+.markup pre {
+    border-color: rgb(20, 20, 20) !important;
+}
+.divider-red::before, .divider-red > span {
+    background: rgb(60, 60, 60) !important;
+}
+#settings-username, #settings-email, #settings-current-password, .settings-actions, .control-group > label, .control-group > input {
+    border: none !important;
+    color: white !important;
+}
+.control-group > label > a, .help-text > a, .control-group > div > p > a, .tip > a, .region-select > button, .guild-settings-modal-integrations-body.settings-panel-with-header.no-integrations > p > a, .permissions-helpdesk, .disabled-for-everyone, .remove-button, .help-text > strong > a, .guild-settings-modal-members-footer.settings-panel-header > a, .empty > h4 {
+    color: rgb(0, 192, 192) !important;
+    font-weight: bold !important;
+}
+.highlight {
+    color: rgb(30, 30, 30) !important;
+}
+.control-group > label > a:hover, .tab-bar-item, .user-settings-modal-accounts-list > h3, .user-settings-modal-accounts-list-description-inner, .checkbox, .help-text, .radio, .control-group > div > p, .user-settings-streamer-mode-enable-inner > label, .tip, .section-header, .note > textarea::-webkit-input-placeholder, .note > textarea, .connected-account-name > a, .empty-text, .region-select-name, .criteria, .btn-default, .instant-invites-header, .instant-invite, .show-channel > div, .countdown, .guild-settings-modal-integrations-header, .guild-settings-modal-integrations-body.settings-panel-with-header.no-integrations > p, h6, .search-bar-inner > input, .search-bar-inner > input::-webkit-input-placeholder, .member-buttons > button:not(.btn-danger), h1, .form-header > header, .guild-settings-modal-emoji-header.settings-panel-header > div > p, .table-header, .emoji-uploader-username, .webhook-details > div, .member, .permission-actions, .form-inner > p, .discord-tag > .username, .discord-tag > .discriminator, .markdown-modal.change-log, .markdown-modal-header, .markdown-modal.change-log > .scroller-wrap.fade > .scroller > ul > li, .markdown-modal-footer, .popout-menu-item, .title, .subtitle, label, .flex-horizontal.reset-container > a, .app-name, .description > .header, .description > .body, .permissions > .header, .permissions > .body, .blurb, .expire-text, .search-for, .search-for > strong, .btn-item, .guild-name, .guild-nick, .row > a > span, .section, .empty > p {
+    color: white !important;
+}
+.tab-bar.UNIQUE > .tab-bar-item.selected {
+    color: black !important;
+}
+.tab-bar-item.selected {
+    border-color: rgb(20, 20, 20) !important;
+}
+.tooltip-right:after {
+    border-right-color: rgb(20, 20, 20) !important;
+}
+.tooltip-left:after {
+    border-left-color: rgb(20, 20, 20) !important;
+}
+.tooltip-top:after {
+    border-top-color: rgb(20, 20, 20) !important;
+}
+.tooltip-bottom:after {
+    border-bottom-color: rgb(20, 20, 20) !important;
+}
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+	border:3px solid rgba(255, 255, 255, 0) !important;
+	background-color:rgba(30, 30, 30, 0.7) !important;
+}
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+	border:3px solid rgba(255, 255, 255, 0) !important;
+	background-color:rgba(30, 30, 30, 0.3) !important;
+}
+.message-group.is-local-bot-message {
+    box-shadow: -20px -1px 0px rgb(30, 30, 30), 10px -1px 0px rgb(30, 30, 30) !important;
+}
+.icon-logout, .markdown-modal-close, .preview-sound, .icon-delete, .create-role-button, .reset-button, .advanced {
+   filter: brightness(200%) !important;
+}
+.channel-mute-button {
+    filter: brightness(400%) !important;
+}

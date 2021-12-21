@@ -1,0 +1,54 @@
+//META{"name":"Full_Light_Theme","description":"Most or all parts of Discord changed to a lighter way Note: Have your Appearance set to 'Light' when using this theme.","author":"maple","version":"2.04"}*//{}
+
+.channel span,.guild-channels header,.guild-channels .toggle-muted-text-channels a,.app .guilds .friends-online,.private-channels header,.guild-channels .toggle-muted-text-channels a {color:#8a8e94!important;}
+.app .guild-inner,.guilds-wrapper .guilds-add,.guilds-wrapper .guild-separator:after{background:#ccc!important;transition:background .16s;;}
+.app .guild:hover .guild-inner,.guilds-wrapper .guilds-add:hover{background:rgb(114,137,218)!important;}
+.guild-channels,.private-channels,#rtc-connection .btn:active {background: #ebebeb !important;}
+.guild-header header {box-shadow:none}
+.account, #rtc-connection {border-color:#f3f3f3;}
+.scroller .channel:hover,.scroller .channel.selected {background: -webkit-linear-gradient(left,#dedede 85%,#ebebeb);}
+.private-channels .channel:hover .status,.private-channels .channel.selected .status {border-color:#dedede;}
+.btn-group {border: 1px solid #fbfbfb !important;background:#eee;}
+.account .btn-settings:after,.private .close,#rtc-connection .btn-disconnect:after,#rtc-connection .btn-info:after,.channel-arrow,.guild-channels .icon, .guild-channels button,.guild-channels .toggle-muted-text-channels a:before{filter:invert(66%);}
+.channels-wrap .btn-group .btn:not(.btn-mute):not(.btn-deafen):hover {opacity:.4}
+.channel-arrow:hover{background-color:rgba(0,0,0,.4)!important;}
+.guilds-wrapper .guilds .guild.unread:before,.guilds-wrapper .guilds .guild.selected:before,.guild-channels .channel-text:before {background: #ccc !important;}
+.guild-channels .channel-text:hover.channel-muted:before, .guild-channels .channel-text:hover:not(.unread):before,.channel.channel-text.unread:before {border-left: 2px solid #7289da !important;}
+.channels-wrap .btn-group .btn:not(:last-child) {border-right: 1px solid #ccc!important;}
+.channels-wrap .btn, .search-bar {box-shadow: none !important;}
+#app-mount .scroller-wrap .scroller::-webkit-scrollbar-thumb,#app-mount .ui-scroller-wrap .scroller::-webkit-scrollbar-thumb {border: 3px solid #FFF;background: #7289EA;}
+.channels-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {border:3px solid #ebebeb!important;background:#cecece!important;}
+.scroller-wrap .messages::-webkit-scrollbar-thumb {border-width:3px!important;}
+.scroller-wrap .channel-members::-webkit-scrollbar-thumb {border:3px solid #f3f3f3!important;}
+.channel:not(.selected):hover.channel:not(.selected):hover a, .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):hover, .guild-channels .channel-text.unread:not(.selected) .channel-name:hover,#rtc-connection .btn-disconnect:after,#rtc-connection .btn-info:after,.channel:hover .channel-name,.account .btn-settings:after {opacity:1!important;}
+.guild-channels .channel-text.unread:not(.selected) .channel-name {opacity: .5;}
+.guild-channels .channel a,#rtc-connection .rtc-connection-channel:hover {opacity: .65;}
+.search-bar .search-bar-inner{background:#fdfdfd;}
+.search-bar [placeholder] {filter:brightness();}
+.channels-wrap .btn {background-color: unset!important;}
+.account .btn-deafen:hover:after,.account .btn-mute.disabled:hover:after,.account .btn-mute:hover:after,#voice-connection .btn-info:hover:after,#rtc-connection .btn-disconnect:hover:after {opacity: .6;}
+.account .status {border-color:#e4e4e4;}
+.private-channels .status {border-color:#ebebeb;}
+.private-channels .channel .icon-friends {background-color:#000;opacity:.5}
+.private-channels .channel:hover .icon-friends {background-color:#444;}
+.guild-header span, .title-wrap .topic,#rtc-connection .rtc-connection-channel,.account {text-shadow: 1px 1px 1px rgba(30,30,38,.1);}
+.guild-header span,#rtc-connection .rtc-connection-channel,.account,.guilds-wrapper .guilds .guild:not(:hover) .guild-inner a,.private-channels .channel a div:not(.badge) {color:#4f545c!important;}
+.guilds-wrapper .guilds .friends-icon:before {content:'';display:block;width:100%;height:100%;background:inherit;transition:.1s;pointer-events:none;}
+.guilds .guild:not(:hover) .friends-icon:before{filter:invert(.6);}
+.search-bar,#friends .friends-header,.guild-header header,.guild-header header:hover,.account, #rtc-connection,.guild-header.popout-open header {background: #e4e4e4;}
+.channel-pins .message-group,.guilds {background-color: #F3F3F3;}
+.content-region .CodeMirror, .content-region .cm-s-material .CodeMirror-gutters, #bd-customcss-detach-container .CodeMirror, #bd-customcss-detach-container .cm-s-material .CodeMirror-gutters {background:#fafafa!important;}
+.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {background:#f5f5f5;color:#72767d;box-shadow:0 1px 0 0 #eee inset;}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button{min-width: 60px;min-height: 32px;color: #fff;background-color: #7289da!important;border:none!important;border-radius:3px!important;}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button:not(:last-of-type), .bd-detached-css-editor #bd-customcss-attach-controls button:not(:last-of-type){margin-right:8px;}
+#bd-customcss-detach-controls-button span {display:block;margin:4px 4px 4px 0!important;}
+.content-region .CodeMirror-simplescroll-vertical div, .content-region .CodeMirror-simplescroll-horizontal div, #bd-customcss-detach-container .CodeMirror-simplescroll-vertical div, #bd-customcss-detach-container .CodeMirror-simplescroll-horizontal div{background:#ccc!important;}
+#bd-customcss-detach-container{background:#ededed;padding:4px 4px 4px 8px;border-top:56px solid #fff;}
+.bd-detached-editor .app{width:calc(70% - 12px);}
+#bd-customcss-detach-editor,#bd-customcss-detach-container #bd-customcss-attach-controls {box-shadow: 0 4px 8px rgba(60,60,60,.12)}
+.ui-standard-sidebar-view .bda-slist li,.ui-standard-sidebar-view .bda-slist li:nth-child(odd){background-color: #f8f9f9;border-color: #dcddde;margin:4px 0;border-width: 1px;border-style: solid;border-radius: 5px;}
+.bda-slist .bda-name {color: hsla(218,5%,47%,.6);}
+.ui-standard-sidebar-view .bda-slist .bda-description{color: #4f545c;border-top:unset;min-height:74px;max-height:74px;margin-top:2px}
+.bda-slist .bda-left {margin:8px 2px;}
+.bda-right .ui-switch-wrapper {margin:0 0 0 5px;}
+.ui-standard-sidebar-view .bda-slist .bda-right button {margin:5px 0 0 -50px;}

@@ -1,0 +1,17 @@
+{
+	"changeLogs": {
+		"ShowHiddenChannels": "3.0.4"
+	},
+	"choices": {
+		"toastPosition": "right"
+	},
+	"general": {
+		"showToasts": true,
+		"showSupportBadges": true,
+		"useChromium": false
+	},
+	"hashes": {
+		"0BDFDB.data.json": "2cc495ab8859f0871a16e77a2a668af5767ef906",
+		"0BDFDB.raw.css": "6bb82eb9f45d2d68a03ad2d3e21dcf35a5e2e3ee"
+	}
+}

@@ -1,0 +1,4 @@
+Dictionaries/
+data/
+plugins/*.config.json
+plugins/*.data.json
